@@ -1,0 +1,93 @@
+{
+  "Users": [
+    {
+      "UserName": "Hans",
+      "ClientId": "Hans",
+      "Password": "Test",
+      "SubscriptionTopicLists": {
+        "BlacklistTopics": [
+          "a",
+          "b/+",
+          "c/#"
+        ],
+        "WhitelistTopics": [
+          "h/h",
+          "d",
+          "e/+",
+          "f/#"
+        ]
+      },
+      "PublishTopicLists": {
+        "BlacklistTopics": [
+          "a",
+          "b/+",
+          "c/#"
+        ],
+        "WhitelistTopics": [
+          "d",
+          "e/+",
+          "f/#",
+          "f/f"
+        ]
+      }
+    },
+    {
+      "UserName": "Hans2",
+      "Password": "Test",
+      "ClientId": "Hans2",
+      "SubscriptionTopicLists": {
+        "BlacklistTopics": [
+          "g",
+          "h/+",
+          "i/#"
+        ],
+        "WhitelistTopics": [
+          "j",
+          "k/+",
+          "l/#"
+        ]
+      },
+      "PublishTopicLists": {
+        "BlacklistTopics": [
+          "g",
+          "h/+",
+          "i/#"
+        ],
+        "WhitelistTopics": [
+          "j",
+          "k/+",
+          "l/#"
+        ]
+      }
+    },
+    {
+      "UserName": "Hans3",
+      "Password": "Test",
+      "ValidateClientId": false,
+      "SubscriptionTopicLists": {
+        "BlacklistTopics": [
+          "g",
+          "h/+",
+          "i/#"
+        ],
+        "WhitelistTopics": [
+          "j",
+          "k/+",
+          "l/#"
+        ]
+      },
+      "PublishTopicLists": {
+        "BlacklistTopics": [
+          "g",
+          "h/+",
+          "i/#"
+        ],
+        "WhitelistTopics": [
+          "j",
+          "k/+",
+          "l/#"
+        ]
+      }
+    }
+  ]
+}
